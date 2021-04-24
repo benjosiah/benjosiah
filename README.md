@@ -1,8 +1,5 @@
 ### Hi there 👋
 
-<!--
-**benjosiah/benjosiah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 I am Ben Josiah, a programmer that is intrested in problem solving, building cool stuffs and making great achievements
 
 - 🔭 I’m currently working on myself
@@ -13,4 +10,4 @@ I am Ben Josiah, a programmer that is intrested in problem solving, building coo
 - 📫 How to reach me: twitter: @josiahben_ [https://twitter.com/josiahben_] and mail: benjosiah90@gmail.com[mailto:benjosiah90@gmail.com]
 - 😄 Pronouns: Him/He
 - ⚡ Fun fact: I love making money
--->
+
