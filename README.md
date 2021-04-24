@@ -7,7 +7,7 @@ I am Ben Josiah, a programmer that is intrested in problem solving, building coo
 - 👯 I’m looking to collaborate PHP and Javascript projects
 - 🤔 I’m looking for help with making money and more money. but not spending it
 - 💬 Ask me about PHP and problem solving
-- 📫 How to reach me: twitter: @josiahben_ [https://twitter.com/josiahben_] and mail: benjosiah90@gmail.com[mailto:benjosiah90@gmail.com]
+- 📫 How to reach me: twitter: [@josiahben_ , https://twitter.com/josiahben_] and mail: benjosiah90@gmail.com[mailto:benjosiah90@gmail.com]
 - 😄 Pronouns: Him/He
 - ⚡ Fun fact: I love making money
 
