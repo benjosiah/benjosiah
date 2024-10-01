@@ -9,8 +9,6 @@ tags: algorithms, software-development, web-development, backend, databases, dat
 
 ---
 
-![]( align="center")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1727821226725/61f98be8-5d87-4c06-8462-f92346b592d8.jpeg align="center")
 
 The Tech space is constantly evolving, and it can sometimes feel like you need a translator just to keep up. Whether you’re a seasoned tech enthusiast or just trying to sound savvy in conversation, knowing the essential terms is crucial. From artificial intelligence to zero-day exploits, this A-Z guide breaks down the jargon, so you can stay in the know and navigate your way whenever you need to remind yourself how simple some complex terms may sometimes be. And if you’re just looking to level up your tech vocabulary, hop in!
