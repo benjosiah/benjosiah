@@ -5,6 +5,7 @@ seoDescription: "The Tech space is constantly evolving, and it can sometimes fee
 datePublished: Tue Oct 01 2024 22:35:29 GMT+0000 (Coordinated Universal Time)
 cuid: cm1r0onhi001p09l65m6w5qp7
 slug: essential-a-z-tech-terms
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1727879273964/dca631ac-e604-4f9a-9d32-06639d8b71b0.jpeg
 tags: algorithms, software-development, web-development, backend, databases, data-structures, apis, developer, coding, devops, functional-programming, software-engineering, frontend-development, object-oriented-programming, programming-tips
 
 ---
