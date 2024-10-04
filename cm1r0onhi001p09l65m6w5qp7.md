@@ -7,7 +7,6 @@ cuid: cm1r0onhi001p09l65m6w5qp7
 slug: essential-a-z-tech-terms
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727879588202/c586a093-9dc0-40e7-a1df-f938265fef83.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1727879273964/dca631ac-e604-4f9a-9d32-06639d8b71b0.jpeg
-tags: algorithms, software-development, web-development, backend, databases, data-structures, apis, developer, coding, devops, functional-programming, software-engineering, frontend-development, object-oriented-programming, programming-tips
 
 ---
 
