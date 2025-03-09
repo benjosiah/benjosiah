@@ -1,6 +1,6 @@
 ---
 title: "Lost AWS Key Pair: How I Regained Access to My EC2 Instance"
-seoTitle: "Regaining Access to Your EC2 Instance: Recovering from a Lost AWS Key "
+seoTitle: "Regaining Access to Your EC2 Instance: Recovering from a Lost AWS Key"
 seoDescription: "Here is how you can regain access to your EC2 instance after losing your AWS key pair. Learn step-by-step methods and best practices to restore connectivity"
 datePublished: Mon Jan 22 2024 11:00:39 GMT+0000 (Coordinated Universal Time)
 cuid: clrotgkna000009i6g69855qt
