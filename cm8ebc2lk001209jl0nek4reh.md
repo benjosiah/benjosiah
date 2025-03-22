@@ -10,7 +10,7 @@ tags: linux, windows, kali-linux, vmware, cybersecurity-1, linux-for-beginners, 
 
 ---
 
-It’s impossible to become a skilled chef but never stepping into a kitchen. You can read cookbooks all day, but without hands-on practice, you’ll never master the craft. The same applies to cybersecurity. If you want to learn ethical hacking, penetration testing, or defensive security, theory alone won’t cut it, you need a **cybersecurity home lab** to practice safely.
+It’s impossible to become a skilled chef but never step into a kitchen. You can read cookbooks all day, but without hands-on practice, you’ll never master the craft. The same applies to cybersecurity. If you want to learn ethical hacking, penetration testing, or defensive security, theory alone won’t cut it, you need a **cybersecurity home lab** to practice safely.
 
 A home lab is a **controlled environment** where you can simulate cyberattacks, test security tools, and build technical skills **without breaking any laws**. As an absolute beginner or an aspiring security professional, this guide will walk you through **exactly how to create a cybersecurity home lab**, step by step.
 
@@ -88,67 +88,67 @@ Next, create a new virtual machine in your chosen software:
 * **VMware Workstation Player:** Click **"Create a New Virtual Machine"**, select **"Installer Disc Image (ISO)"**, choose the OS ISO file, and specify a VM name and location.
     
 
-After creating the VM, allocate system resources to ensure smooth p[erformance](https://www.virtualbox.org/):
+After creating the VM, allocate system resources to ensure smooth performance:
 
-* **RAM:** At least 2GB (preferably 4GB+ for heavier OS like [Windows 10](https://www.microsoft.com/en-us/software-download/windows10) or Kali Linux).
+* **RAM:** At least 2GB (preferably 4GB+ for heavier OS like Windows 10 or Kali Linux).
     
 * **Storage:** Minimum 20GB (40GB+ recommended for extensive testing).
     
-* [**CPU Cor**](https://www.virtualbox.org/)**es:** Allocate at least 2 cores for better performance.
+* **CPU Cores:** Allocate at least 2 cores for better performance.
     
 
-Once the VM is [configured](https://www.virtualbox.org/), install an operating system inside it. Download the ISO file for your cho[sen OS (e.](https://www.virtualbox.org/)[g](https://www.microsoft.com/en-us/software-download/windows10)., [K](https://ubuntu.com/download)ali Linux, [Ubu](https://ubuntu.com/download)ntu, or Windows 10). Attach the ISO fil[e to the V](https://www.virtualbox.org/)M:
+Once the VM is configured, install an operating system inside it. Download the ISO file for your chosen OS (e.[g](https://www.microsoft.com/en-us/software-download/windows10)., [K](https://ubuntu.com/download)ali Linux, Ubuntu, or Windows 10). Attach the ISO file to the VM:
 
-* **VirtualBox:** Go to **Settings → Storage**, select the [empty dis](https://www.virtualbox.org/)k, and choose the ISO file.
+* **VirtualBox:** Go to **Settings → Storage**, select the empty disk, and choose the ISO file.
     
 * **VMware:** Choose **"Installer Disc Image"** during setup.
     
 
-Start the VM, follow the OS installation prompts, [and r](https://ubuntu.com/download)eboot once completed.
+Start the VM, follow the OS installation prompts, and reboot once completed.
 
-Next, conf[igure netw](https://www.virtualbox.org/)orking settings based on your needs:
+Next, configure networking settings based on your needs:
 
-* **NAT (Network Address Translation):** Defa[ult mode,](https://www.virtualbox.org/) [allows i](https://www.microsoft.com/en-us/software-download/windows10)nternet access.
+* **NAT (Network Address Translation):** Default mode, allows internet access.
     
-* **Bridged Network:** C[onnects th](https://www.virtualbox.org/)e VM directly to your host network.
+* **Bridged Network:** Connects the VM directly to your host network.
     
-* **Host-**[**On**](https://www.microsoft.com/en-us/software-download/windows10)**ly:** Isolates the VM fr[om the int](https://www.virtualbox.org/)ernet (ideal for malware testing).
-    
-
-To set this [up:](https://www.virtualbox.org/)
-
-* [**Vir**](https://www.virtualbox.org/)**tualBox:** Go to **VM** [**S**](https://ubuntu.com/download)**ettings → Network → Adapter Type**.
-    
-* **VMware:** [Go](https://www.microsoft.com/en-us/software-download/windows10) [to **VM Set**](https://www.virtualbox.org/)**tings → Network Adapter → Select Mode**.
+* **Host-Only:** Isolates the VM from the internet (ideal for malware testing).
     
 
-For better perf[ormance, i](https://www.virtualbox.org/)ns[tall guest](https://www.microsoft.com/en-us/software-download/windows10) utilities:
+To set this up:
 
-* **VirtualBox:** Start VM → **Devices → Insert** [**Guest Addi**](https://www.virtualbox.org/)**tions CD** [**Image** → Fo](https://www.virtualbox.org/)llow installation steps.
+* **VirtualBox:** Go to **VM** [**S**](https://ubuntu.com/download)**ettings → Network → Adapter Type**.
     
-* **VMware:** Start VM → **Pl**[**ayer → Man**](https://www.virtualbox.org/)[**age → Inst**](https://www.microsoft.com/en-us/software-download/windows10)**all** **VMware Tools**.
-    
-
-Finally, take [sn](https://ubuntu.com/download)apsho[ts to crea](https://www.virtualbox.org/)te [restore p](https://www.microsoft.com/en-us/software-download/windows10)oints in case of issues:
-
-* **Vi**[**rtualBox:**](https://www.virtualbox.org/) Open VM → [**Snaps**](https://ubuntu.com/download)**hots** **→ Take Snapshot**.
-    
-* **VMwa\*\*\*\*re:** Open VM → **Take Snapshot**.
+* **VMware:** Go to **VM Settings → Network Adapter → Select Mode**.
     
 
-**Why Virtual** [**Machines?**](https://www.virtualbox.org/) [If](https://ubuntu.com/download) something goes wrong (like a system cras[h o](https://www.microsoft.com/en-us/software-download/windows10)r mal[ware infec](https://www.virtualbox.org/)tio[n), yo](https://ubuntu.com/download)u can **rese\*\*\*\*t the VM in seconds** without affecting your [actual co](https://www.virtualbox.org/)[mpu](https://www.microsoft.com/en-us/software-download/windows10)ter.
+For better performance, install guest utilities:
 
-## **Step 3:** **Set Up Your First Hacking** [**and Secur**](https://www.virtualbox.org/)[**ity To**](https://www.microsoft.com/en-us/software-download/windows10)**ols**
+* **VirtualBox:** Start VM → **Devices → Insert** **Guest Additions CD** **Image** → Follow installation steps.
+    
+* **VMware:** Start VM → **Player → Manage → Install** **VMware Tools**.
+    
 
-Now that your VMs are ready, it’s time to **install and configure** [**security**](https://www.microsoft.com/en-us/software-download/windows10) **tools**.
+Finally, take snapshots to create restore points in case of issues:
 
-### **1\. Install Kali Linux (For Ethical H**[**acking**](https://ubuntu.com/download) [**& Penetra**](https://www.microsoft.com/en-us/software-download/windows10)**tion** **Testing)**
+* **VirtualBox:** Open VM → **Snapshots** **→ Take Snapshot**.
+    
+* **VMware:** Open VM → **Take Snapshot**.
+    
 
-Kali Linux comes **preloaded with hacking tools**, so i[t’s a must](https://www.microsoft.com/en-us/software-download/windows10)[\-ha](https://ubuntu.com/download)ve.
+**Why Virtual** **Machines?** If something goes wrong (like a system crash or malware infection), you can **reset the VM in seconds** without affecting your actual computer.
+
+## **Step 3:** **Set Up Your First Hacking** **and Security Tools**
+
+Now that your VMs are ready, it’s time to **install and configure** **security** **tools**.
+
+### **1\. Install Kali Linux (For Ethical Hacking** **& Penetration** **Testing)**
+
+Kali Linux comes **preloaded with hacking tools**, so it’s a must-have.
 
 * Download it from Kali.org.
     
-* Load it into [Virt](https://ubuntu.com/download)[ualBox or](https://www.microsoft.com/en-us/software-download/windows10) VMware.
+* Load it into VirtualBox or VMware.
     
 * Run an update:
     
@@ -156,57 +156,57 @@ Kali Linux comes **preloaded with hacking tools**, so i[t’s a must](https://ww
     bashCopy codesudo apt update && sudo apt upgrade -y
     ```
     
-* Ins[tall addit](https://www.microsoft.com/en-us/software-download/windows10)ional tools like Metasploit [and N](https://ubuntu.com/download)map if needed.
+* Install additional tools like Metasploit and Nmap if needed.
     
 
-### [**2\. Insta**](https://www.microsoft.com/en-us/software-download/windows10)**ll a** **Windows 10 Virtual Machine (For Testing** [**Explo**](https://ubuntu.com/download)**it**[**s)**](https://www.microsoft.com/en-us/software-download/windows10)
+### **2\. Install a** **Windows 10 Virtual Machine (For Testing** **Exploits)**
 
 Since Windows is widely used in enterprise environments, understanding its vulnerabilities is essential for penetration testing. Setting up a **Windows 10 virtual machine** allows you to safely test exploits in a controlled environment.
 
-First, download a **Windows 10 ISO** file from [**Microsoft’s official website**. You’ll need this file to i](https://www.microsoft.com/en-us/software-download/windows10)nstall Windows inside the VM. If you don’t have a valid product key, you can use the trial version.
+First, download a **Windows 10 ISO** file from [**Microsoft’s official website**.](https://www.microsoft.com/en-us/software-download/windows10) You’ll need this file to [i](https://www.microsoft.com/en-us/software-download/windows10)nstall Windows inside the VM. If you don’t have a valid product key, you can use the trial version.
 
 Next, create a **new virtual machine** in VirtualBox or VMware:
 
-* **VirtualBox:** Click **"New"**, name the VM "Wind[ows 10", and select **Windows**](https://www.microsoft.com/en-us/software-download/windows10) **10 (64-bit)**.
+* **VirtualBox:** Click **"New"**, name the VM "Windows 10", and select **Windows** **10 (64-bit)**.
     
 * **VMware Workstation Player:** Click **"Create a New Virtual Machine"**, select **"Installer Disc Image (ISO)"**, and choose the Windows 10 ISO file.
     
 
-Then, allocate [system resources for smooth](https://www.microsoft.com/en-us/software-download/windows10) operation:
+Then, allocate system resources for smooth operation:
 
-* **RAM:** At least 4GB (8G[B+ recommended).](https://www.microsoft.com/en-us/software-download/windows10)
+* **RAM:** At least 4GB (8GB+ recommended).
     
 * [**Storage:**](https://www.microsoft.com/en-us/software-download/windows10) Minimum 40GB (more for advanced testing).
     
-* **CPU Cores:** A[t least 2 cores.](https://www.microsoft.com/en-us/software-download/windows10)
+* **CPU Cores:** At least 2 cores.
     
 
-[Once con](https://www.microsoft.com/en-us/software-download/windows10)figured, start the VM and install Windows 10 by following the setup wizard. After installation, proceed with thes[e key configurations:](https://www.microsoft.com/en-us/software-download/windows10)
+Once configured, start the VM and install Windows 10 by following the setup wizard. After installation, proceed with these key configurations:
 
-* [**Ins**](https://www.microsoft.com/en-us/software-download/windows10)**tall and configure Windows De**[**fender Firewall & Event View**](https://www.microsoft.com/en-us/software-download/windows10)**er** for monito[ring logs.](https://www.microsoft.com/en-us/software-download/windows10)
+* **Install and configure Windows Defender Firewall & Event Viewer** for monitoring logs.
     
-* [**Enable Remote**](https://www.microsoft.com/en-us/software-download/windows10) **Desktop Protocol (RDP)** if [you plan to conduct remote t](https://www.microsoft.com/en-us/software-download/windows10)esti[ng.](https://www.microsoft.com/en-us/software-download/windows10)
+* **Enable Remote** **Desktop Protocol (RDP)** if you plan to conduct remote testi[ng.](https://www.microsoft.com/en-us/software-download/windows10)
     
-* [**Disable security feat**](https://www.microsoft.com/en-us/software-download/windows10)**ures (for testing purposes only)**, such as:
+* **Disable security features (for testing purposes only)**, such as:
     
     * Windows Defender Real-Time Protection
         
     * User Account Control (UAC)
         
-    * W[indows SmartScreen](https://www.microsoft.com/en-us/software-download/windows10)
+    * Windows SmartScreen
         
 
-[Now,](https://www.microsoft.com/en-us/software-download/windows10) set up **Kali Linux as an attacking machine** and connect it t[o the Windows 10 VM. Use net](https://www.microsoft.com/en-us/software-download/windows10)working modes like **"Host-Only"** for isolated attacks [or **"Bridged"** for real-world](https://www.microsoft.com/en-us/software-download/windows10) scenarios.
+Now, set up **Kali Linux as an attacking machine** and connect it to the Windows 10 VM. Use networking modes like **"Host-Only"** for isolated attacks or **"Bridged"** for real-world scenarios.
 
-### [**3.**](https://ubuntu.com/download) [**Install an**](https://www.microsoft.com/en-us/software-download/windows10)**d Use Basic S**[**ecurity Tools**](https://www.microsoft.com/en-us/software-download/windows10)
+### **3.** **Install and Use Basic Security Tools**
 
-[To better und](https://www.microsoft.com/en-us/software-download/windows10)erstand how t[o install these tools, look](https://www.microsoft.com/en-us/software-download/windows10) [ou](https://ubuntu.com/download)[t for newer articles on how to set up each of these t](https://www.microsoft.com/en-us/software-download/windows10)ools;
+To better understand how to install these tools, look out for newer articles on how to set up each of these tools;
 
-* [**Wir**](https://ubuntu.com/download)**eshark** – Capture and analyze network traffic.
+* **Wireshark** – Capture and analyze network traffic.
     
-* **Nmap** – Scan open [ports](https://ubuntu.com/download) and discover vulnerabilities.
+* **Nmap** – Scan open ports and discover vulnerabilities.
     
-* **Burp Suite** – [Test](https://ubuntu.com/download) web security flaws like SQL injection.
+* **Burp Suite** – Test web security flaws like SQL injection.
     
 * **Metasploit** – Simulate attacks to understand hacker techniques.
     
